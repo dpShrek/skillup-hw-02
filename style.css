@@ -1,0 +1,92 @@
+body {
+    margin: 0 0 0 0;
+    color: dimgray;
+    font-family: "Myriad Pro";
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+content {
+    flex: 1 1 auto;
+}
+
+header {
+    
+}
+
+.col__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 50%;
+}
+
+.containerItem {
+    flex: 0 1 50%;
+    margin: 0 0 70px 0;
+}
+
+.navMenu {
+    width: 100%;
+}
+
+.ulNavMenu {
+    display: flex;  
+    align-items: center;
+    justify-content:space-around;
+    margin: 70px 0px 50px 0px ;
+    list-style: none;
+}
+
+.ulNavMenu li a {
+   
+    color: dimgray;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#liNavMenu a:hover {
+    color: rgb(79, 131, 177);
+}
+
+.lodeMore {
+    border: 1px solid dimgray;
+    color:dimgray;
+    height: 60px;
+    width: 160px;
+    background-color: white;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: rgb(230, 226, 216);
+}
+
+.footer__row {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btm__row {
+    display:flex;
+    justify-content:center;
+}
+
+#namePhoto {
+    font-weight: 100;
+}
