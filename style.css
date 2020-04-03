@@ -27,12 +27,22 @@ header {
 .col__wrap {
     display: flex;
     flex-wrap: wrap;
-    flex: 0 1 50%;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#new{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
 }
 
 .containerItem {
-    flex: 0 1 50%;
+    flex: 50%;
     margin: 0 0 70px 0;
+    
 }
 
 .navMenu {
