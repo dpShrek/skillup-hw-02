@@ -4,33 +4,15 @@ body {
     font-family: "Myriad Pro";
 }
 
-.wrapper {
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
 .conteiner {
     max-width: 900px;
     margin: 0 auto;
 }
 
-content {
-    flex: 1 1 auto;
-}
-
-header {
-    
-}
-
-.col__wrap {
+.col__wrap_news {
     display: flex;
     flex-wrap: wrap;
-    flex: 50%;
-    justify-content: center;
-    align-items: center;
-  
+    justify-content: space-around;
 }
 
 #new{
@@ -40,9 +22,7 @@ header {
 }
 
 .containerItem {
-    flex: 50%;
-    margin: 0 0 70px 0;
-    
+     max-width: 420px;
 }
 
 .navMenu {
@@ -51,7 +31,7 @@ header {
 
 .ulNavMenu {
     display: flex;  
-    align-items: center;
+    padding: 0;
     justify-content:space-around;
     margin: 70px 0px 50px 0px ;
     list-style: none;
